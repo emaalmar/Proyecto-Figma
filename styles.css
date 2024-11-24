@@ -2,7 +2,6 @@ body {
   background-color: #FFF7F0;
   color: #030303;
   font-family: "Plus Jakarta Sans", sans-serif;
-
 }
 
 nav {
@@ -76,7 +75,6 @@ margin-bottom: 5px;
 
 .card {
   position: relative;
-  /* display: flex; */
   width: 355px;
   height: 354px;
   box-sizing: border-box;
@@ -97,41 +95,35 @@ margin-bottom: 5px;
   background-color: #61c4b7;
 }
 
-.card img {
-  position: relative;
-  /* width: 100%; */
-  /* height: auto; */
-  /* object-fit: contain; */
-  padding: 20px;
-  /* top: 5PX;
-  left: 200px; */
-}
-
-
 .grap-1{
+  padding: 20px;
+  position: relative;
   width: auto; 
-  height: 1px;
+  height: 200px;
   object-fit: fill;
   top: 3PX;
-  left: 220px;
+  left: 190px;
 }
 
 .grap-2 {
+  padding: 20px;
+  position: relative;
   width: 180px;
-  height: auto; 
+  height: 120px; 
   object-fit:fill;
   top: 3PX;
   left: 140px; 
 }
 
 .grap-3 {
+  position: relative;
+  padding: 20px;
   width: auto;
   height: 250px;
   object-fit: fill;
   top: 3PX;
-  left: 220px;
+  left: 225px;
 }
-
 
 h2 {
   position: absolute;
@@ -143,3 +135,4 @@ h2 {
   z-index: 2;
   margin: 0;
 }
+
