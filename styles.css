@@ -8,7 +8,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  
+
 }
 
 #logo img {
@@ -22,11 +22,11 @@ nav {
   text-decoration: none;
   padding: 14px 45px;
   border-radius: 1000px;
- 
+
 }
 
 .text-content {
-  text-align:center;
+  text-align: center;
 }
 
 h1 {
@@ -95,10 +95,10 @@ margin-bottom: 5px;
   background-color: #61c4b7;
 }
 
-.grap-1{
+.grap-1 {
   padding: 20px;
   position: relative;
-  width: auto; 
+  width: auto;
   height: 200px;
   object-fit: fill;
   top: 3PX;
@@ -109,10 +109,10 @@ margin-bottom: 5px;
   padding: 20px;
   position: relative;
   width: 180px;
-  height: 120px; 
-  object-fit:fill;
+  height: 120px;
+  object-fit: fill;
   top: 3PX;
-  left: 140px; 
+  left: 140px;
 }
 
 .grap-3 {
@@ -136,3 +136,31 @@ h2 {
   margin: 0;
 }
 
+.new {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  margin: 150px;
+  flex-wrap: wrap;
+}
+
+
+.text {
+  display: flex;
+  color: #030303;
+  flex-direction: column;
+  max-width: 45ch;
+}
+
+.text-1{
+  display: inline-block;
+  color: #FFF7F0;
+  background-color: #eb7565;
+  text-align: left;
+  font-size: 1rem;
+  border-radius: 20px;
+  padding: 10px 10px;
+  text-decoration: none;
+  
+}
