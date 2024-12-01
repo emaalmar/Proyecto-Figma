@@ -256,10 +256,11 @@ h2 {
   align-items: center;
   gap: 1.625rem;
 }
- 
-.h2-color{
+
+.h2-color {
   color: #FFF7F0;
 }
+
 .text-new {
   display: flex;
   flex-direction: column;
