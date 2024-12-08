@@ -41,6 +41,8 @@ nav {
   border-radius: 1000px;
 }
 
+
+
 .text-content {
   text-align: center;
   padding: 1rem;
@@ -251,6 +253,34 @@ h2 {
   }
 }
 
+
+
+.My-work-heading {
+  text-align: center;
+  padding: 1rem ; 
+}
+
+.circle-picture {
+  color: var(--clr-tex-head);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.25rem;
+}
+
+.container-picture {
+ 
+  display: flex;
+  justify-content: center; 
+  gap: 1.5rem;
+}
+.container-picture img {
+  width: 100%;
+  height: auto; 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+
 .text-book-me {
   background-color: var(--clr-tex-head);
   color: var(--clr-background);
@@ -262,7 +292,8 @@ h2 {
   flex-direction: space-between;
   align-items: center;
   gap: 1.625rem;
-} 
+  margin: 1rem;
+}
 
 .text-book-me-info {
   display: flex;
@@ -274,9 +305,6 @@ h2 {
   color: var(--clr-background);
 }
 
-.text-book-me-description{
-  hyphens: 40;
-}
 
 .button-text-book-me-info {
   background-color: var(--clr-illus);
