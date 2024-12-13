@@ -19,7 +19,7 @@ body {
   background-color: var(--clr-background);
   color: var(--clr-tex-head);
   font-family: "Plus Jakarta Sans", sans-serif;
-  margin-inline:center ;
+  margin-inline: center;
 }
 
 /* Navegación */
@@ -295,7 +295,7 @@ h2 {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-@media (max-width: 768px)  {
+@media (max-width: 768px) {
 
   .container-picture {
     max-width: calc(100% - 200px);
@@ -365,6 +365,21 @@ h2 {
     padding-inline: 2rem;
     border-radius: 100vw;
     font-size: .5rem;
-    
+
   }
+}
+
+button,
+a.button-text-description-me,
+#call-to-action,
+.button-text-book-me-info {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+button:hover,
+a.button-text-description-me:hover,
+#call-to-action:hover,
+.button-text-book-me-info:hover {
+  background-color: var(--clr-graph-design);
+  color: var(--clr-tex-head);
 }
